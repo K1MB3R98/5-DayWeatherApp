@@ -32,7 +32,7 @@ let postalCode = prompt("For your local weather, please enter the first 3 charac
 // Get user postal code (q) to generate location key (needed for getWeather API call)
 app.getLocation = () => {
     $.ajax ({
-        url: `http://dataservice.accuweather.com/locations/v1/postalcodes/search`,
+        url: `https://dataservice.accuweather.com/locations/v1/postalcodes/search`,
         method: 'GET',
         dataType: 'json',
         data: {
@@ -49,7 +49,7 @@ app.getLocation = () => {
 // Retrieve Weather Data from AccuWeather
 app.getWeather = (LocationKey) => {
     $.ajax({
-        url: `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${LocationKey}`,
+        url: `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${LocationKey}`,
         method: 'GET',
         dataType: 'json',
         data: {
