@@ -1,0 +1,71 @@
+<!-- Project02 for JavaScript-Fall03 @Juno College -->
+<!-- December 15, 2021. -->
+<!-- by Kimberley Schubert -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Project 02: Weather Forecast</title>
+    
+    <link rel = "stylesheet" href = "style.css"/>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- wrapper here -->
+    <div class = wrapper>
+
+        <!-- Begin Header -->
+        <header>
+            <h1>Your 5-Day Weather Forecast</h1>
+        </header>
+        <!-- End Header -->
+
+
+        <!-- Begin Main -->
+        <main>
+
+            <!-- Begin Section: Weather Headline -->
+            <section class = weatherHeadline>
+                <h3>Current Weather Alerts: </h3>
+                <p></p>
+            </section>
+            <!-- End Section -->
+
+            <!-- Begin Section: 5-Day Forecasts -->
+            <section class = fiveDayFlexbox>
+                 
+                <div>
+                    <!-- dynamic content from JS -->
+                </div>
+
+            </section>
+            <!-- End Section -->
+
+        </main>
+        <!-- End Main -->
+
+
+        <!-- Begin Footer -->
+        <footer>
+            <p>Created at <a href = "https://junocollege.com"> Juno College</a> by Kimberley Schubert</p>
+            <p>Data provided by 
+            <a href = "http://www.accuweather.com/">
+            <img src = "./assets/AccuWeather Registered Symbol Logo (1)/PNG (transparent background)/Horizontal/AW_REGISTERED_Horiz_Transparent_Logo.png" alt="Clickable Accuweather logo."></a></p>
+        </footer>
+        <!-- End Footer -->
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
