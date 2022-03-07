@@ -1,8 +1,8 @@
 const app = {};
 
 // API key has a limited # of calls each day --> if one doesn't work, please switch to the other
-// app.key = `AWmz2ervkrJ0qWOeCH8Dl3gNyk1DY1CH`;
-app.key = `uQZsBU5lGIvr1GvFTSTcghDhheb0Q3hz`;
+app.key = `AWmz2ervkrJ0qWOeCH8Dl3gNyk1DY1CH`;
+// app.key = `uQZsBU5lGIvr1GvFTSTcghDhheb0Q3hz`;
 
 
 
