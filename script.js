@@ -5,17 +5,15 @@ app.key = `AWmz2ervkrJ0qWOeCH8Dl3gNyk1DY1CH`;
 // app.key = `uQZsBU5lGIvr1GvFTSTcghDhheb0Q3hz`;
 
 
-
-
 // Randomize Background Image
 const randomImage = [
-    "url(./JS-project02/assets/BackgroundPhotos/156553-sunny-background-2560x1440-hd.jpg)",
-    "url(./JS-project02/assets/BackgroundPhotos/156555-download-free-sunny-background-2560x1600.jpg)",
-    "url(./JS-project02/assets/BackgroundPhotos/156561-sunny-background-1920x1249-samsung-galaxy.jpg)",
-    "url(./JS-project02/assets/BackgroundPhotos/244638-beautiful-hd-forest-wallpaper-1920x1200.jpg)",
-    "url(./JS-project02/assets/BackgroundPhotos/252222-sunny-background-1920x1200-windows-7.jpg)",
-    "url(./JS-project02/assets/BackgroundPhotos/252224-sunny-background-1920x1080-photo.jpg)",
-    "url(./JS-project02/assets/BackgroundPhotos/332713-mountains-wallpaper-1920x1080-for-android-40.jpg)"
+    "url(./assets/BackgroundPhotos/156553-sunny-background-2560x1440-hd.jpg)",
+    "url(./assets/BackgroundPhotos/156555-download-free-sunny-background-2560x1600.jpg)",
+    "url(./assets/BackgroundPhotos/156561-sunny-background-1920x1249-samsung-galaxy.jpg)",
+    "url(./assets/BackgroundPhotos/244638-beautiful-hd-forest-wallpaper-1920x1200.jpg)",
+    "url(./assets/BackgroundPhotos/252222-sunny-background-1920x1200-windows-7.jpg)",
+    "url(./assets/BackgroundPhotos/252224-sunny-background-1920x1080-photo.jpg)",
+    "url(./assets/BackgroundPhotos/332713-mountains-wallpaper-1920x1080-for-android-40.jpg)"
 ]
 
 selectImage = randomImage[Math.floor(Math.random() * randomImage.length)];
